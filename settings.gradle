@@ -1,0 +1,2 @@
+rootProject.name='CardMemoryGame_app_by_command'
+include ':app'

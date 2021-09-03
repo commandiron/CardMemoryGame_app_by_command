@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        >
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="4"
+            android:rowCount="4">
+
+            <ImageView
+                android:id="@+id/imageView_0_0"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                app:srcCompat="@drawable/ic_launcher_foreground"/>
+
+            <ImageView
+                android:id="@+id/imageView_0_1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <ImageView
+                android:id="@+id/imageView_0_2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="0"
+                android:layout_column="2"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <ImageView
+                android:id="@+id/imageView_0_3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="0"
+                android:layout_column="3"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <ImageView
+                android:id="@+id/imageView_1_0"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <ImageView
+                android:id="@+id/imageView_1_1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="1"
+                android:layout_column="1"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <ImageView
+                android:id="@+id/imageView_1_2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="1"
+                android:layout_column="2"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <ImageView
+                android:id="@+id/imageView_1_3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="1"
+                android:layout_column="3"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <ImageView
+                android:id="@+id/imageView_2_0"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="2"
+                android:layout_column="0"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <ImageView
+                android:id="@+id/imageView_2_1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="2"
+                android:layout_column="1"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <ImageView
+                android:id="@+id/imageView_2_2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="2"
+                android:layout_column="2"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <ImageView
+                android:id="@+id/imageView_2_3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="2"
+                android:layout_column="3"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <ImageView
+                android:id="@+id/imageView_3_0"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="3"
+                android:layout_column="0"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <ImageView
+                android:id="@+id/imageView_3_1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="3"
+                android:layout_column="1"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <ImageView
+                android:id="@+id/imageView_3_2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="3"
+                android:layout_column="2"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <ImageView
+                android:id="@+id/imageView_3_3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="3"
+                android:layout_column="3"
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
+            <ImageView
+                android:id="@+id/imageView_0_0_cover"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                app:srcCompat="@drawable/cover"
+                android:visibility="invisible"/>
+            <ImageView
+                android:id="@+id/imageView_0_1_cover"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                app:srcCompat="@drawable/cover"
+                android:visibility="invisible"/>
+            <ImageView
+                android:id="@+id/imageView_0_2_cover"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="0"
+                android:layout_column="2"
+                app:srcCompat="@drawable/cover"
+                android:visibility="invisible"/>
+            <ImageView
+                android:id="@+id/imageView_0_3_cover"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="0"
+                android:layout_column="3"
+                app:srcCompat="@drawable/cover"
+                android:visibility="invisible"/>
+            <ImageView
+                android:id="@+id/imageView_1_0_cover"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                app:srcCompat="@drawable/cover"
+                android:visibility="invisible"/>
+            <ImageView
+                android:id="@+id/imageView_1_1_cover"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="1"
+                android:layout_column="1"
+                app:srcCompat="@drawable/cover"
+                android:visibility="invisible"/>
+            <ImageView
+                android:id="@+id/imageView_1_2_cover"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="1"
+                android:layout_column="2"
+                app:srcCompat="@drawable/cover"
+                android:visibility="invisible"/>
+            <ImageView
+                android:id="@+id/imageView_1_3_cover"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="1"
+                android:layout_column="3"
+                app:srcCompat="@drawable/cover"
+                android:visibility="invisible"/>
+            <ImageView
+                android:id="@+id/imageView_2_0_cover"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="2"
+                android:layout_column="0"
+                app:srcCompat="@drawable/cover"
+                android:visibility="invisible"/>
+            <ImageView
+                android:id="@+id/imageView_2_1_cover"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="2"
+                android:layout_column="1"
+                app:srcCompat="@drawable/cover"
+                android:visibility="invisible"/>
+            <ImageView
+                android:id="@+id/imageView_2_2_cover"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="2"
+                android:layout_column="2"
+                app:srcCompat="@drawable/cover"
+                android:visibility="invisible"/>
+            <ImageView
+                android:id="@+id/imageView_2_3_cover"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="2"
+                android:layout_column="3"
+                app:srcCompat="@drawable/cover"
+                android:visibility="invisible"/>
+            <ImageView
+                android:id="@+id/imageView_3_0_cover"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="3"
+                android:layout_column="0"
+                app:srcCompat="@drawable/cover"
+                android:visibility="invisible"/>
+            <ImageView
+                android:id="@+id/imageView_3_1_cover"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="3"
+                android:layout_column="1"
+                app:srcCompat="@drawable/cover"
+                android:visibility="invisible"/>
+            <ImageView
+                android:id="@+id/imageView_3_2_cover"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="3"
+                android:layout_column="2"
+                app:srcCompat="@drawable/cover"
+                android:visibility="invisible"/>
+            <ImageView
+                android:id="@+id/imageView_3_3_cover"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_row="3"
+                android:layout_column="3"
+                app:srcCompat="@drawable/cover"
+                android:visibility="invisible"/>
+
+
+        </GridLayout>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"/>
+
+    <TextView
+        android:id="@+id/counter_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="0"/>
+
+</LinearLayout>
